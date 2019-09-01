@@ -1,5 +1,5 @@
-#include "sensor-lib-orp/lib_orp.h"
-#include "inc/lib_orp_config.h"
+#include "lib_orp.h"
+#include "lib_orp_config.h"
 
 #define MAGIC_NUMBER_DEFAULT 0x66 // 8 bit random number prefered to be unique, for integrity check of params
 #define ORIGIN_SHIFT_MV_DEFAULT 0
