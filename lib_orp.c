@@ -1,5 +1,9 @@
 #include "lib_orp.h"
+#ifdef TEST
+#include "lib_orp_config_test.h"
+#else
 #include "lib_orp_config.h"
+#endif
 
 #define MAGIC_NUMBER_DEFAULT 0x66 // 8 bit random number prefered to be unique, for integrity check of params
 #define ORIGIN_SHIFT_MV_DEFAULT 0
